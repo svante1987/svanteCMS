@@ -10,6 +10,9 @@
 </head>
 
 <body>
-<?php get_header();echo "Hello World 222";get_footer();?>
+    <?php get_header();
+    echo "Hello World 222";
+    get_footer(); ?>
 </body>
+
 </html>

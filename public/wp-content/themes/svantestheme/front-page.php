@@ -11,7 +11,7 @@ $image = $get_image['sizes']['large'];
 ?>
   <section id="frontpage">
     <div>
-
+      
     <?php
     if($title): ?>
         <h1><?php echo $title; ?></h1>
@@ -30,7 +30,6 @@ $image = $get_image['sizes']['large'];
     if($description): ?>
     <p><?php echo nl2br($description); ?></>
     <?php endif; ?>
-    
       
     </div>
    </section>

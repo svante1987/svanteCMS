@@ -11,13 +11,14 @@
 </head>
 <nav>
     <div>
-    <?php
-                    wp_nav_menu( array(
-                        'theme_location'    => 'main-menu',
-                        'depth'             => 3,
-                        'container'         => 'div',
-                    ) );
-                    ?>
+        <?php
+        wp_nav_menu(array(
+            'theme_location'    => 'main-menu',
+            'depth'             => 3,
+            'container'         => 'div',
+        ));
+        ?>
     </div>
 </nav>
+
 <body>
