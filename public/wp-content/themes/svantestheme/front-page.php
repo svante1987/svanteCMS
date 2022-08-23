@@ -11,13 +11,6 @@ $image = $get_image['sizes']['large'];
 ?>
   <section id="frontpage">
     <div>
-        <h1><?php the_title();?></h1>
-
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-        <?php the_content(); ?>
-
-        <?php endwhile; else: endif; ?>
 
     <?php
     if($title): ?>
@@ -29,7 +22,9 @@ $image = $get_image['sizes']['large'];
     <?php endif;
 
     if($image) : ?>
-    <img src="<?php echo $image; ?>">
+    <div class="img-container">
+      <img src="<?php echo $image; ?>">
+    </div>
     <?php endif;
 
     if($description): ?>
