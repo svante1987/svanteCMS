@@ -14,7 +14,7 @@
     <?php
                     wp_nav_menu( array(
                         'theme_location'    => 'main-menu',
-                        'depth'             => 2,
+                        'depth'             => 3,
                         'container'         => 'div',
                     ) );
                     ?>

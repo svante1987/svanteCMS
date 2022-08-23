@@ -1,7 +1,5 @@
 <?php
 
-get_header();
-
 $title = get_field('title');
 $description = get_field('description');
 
