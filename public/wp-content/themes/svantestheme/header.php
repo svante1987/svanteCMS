@@ -9,5 +9,16 @@
     <link rel="stylesheet" href="/wp-content/themes/svantestheme/style.css">
     <?php wp_head(); ?>
 </head>
-<p> hej header </p>
+<nav>
+    <div>
+        <?php
+        wp_nav_menu(array(
+            'theme_location'    => 'main-menu',
+            'depth'             => 3,
+            'container'         => 'div',
+        ));
+        ?>
+    </div>
+</nav>
+
 <body>

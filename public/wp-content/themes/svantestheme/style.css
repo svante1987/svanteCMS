@@ -2,3 +2,10 @@ body {
   background-color: steelblue;
   color: salmon;
 }
+
+.img-container {
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
